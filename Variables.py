@@ -14,4 +14,9 @@ print("my name is: ", name ,"my age :" , age2 )
 
 print("my name is: ", name )
 print("my age: ", age2)
- 
+
+#Types
+
+print(type(name))
+print(type(age))
+print(type(price))

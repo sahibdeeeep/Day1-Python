@@ -55,9 +55,24 @@ print(price)
 
 #or
 
-
-name = input("confirm name : ")
-age = int(input("comfirm age: "))
-price = float(input("confirm pen price: "))
+name = input("name : ")
+age = int(input("age: "))
+price = float(input("pen price: "))
 
 print("my name is: " , name , "and my age is:" , age , ",my pen price is:" , "$" ,price)
+
+
+
+#Conditional Statements
+
+
+
+light = input("light color : ")
+if(light == "red"):
+    print("stop")
+elif(light == "yellow"):
+    print("look")
+elif(light == "green"):
+    print("go")
+else:
+    print("Light is Broken")

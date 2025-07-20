@@ -4,3 +4,6 @@ print("sahib is my name." , "my age is 18")
 print(10+10)
 
 print("10+10")
+
+val1 = input("name: ")
+print(type(val1) , val1)
